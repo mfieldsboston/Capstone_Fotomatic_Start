@@ -448,6 +448,8 @@ header .mobile {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  text-align: left;
+  padding-left: 5%;
 }
 
 #quotes-section .quote-citation {
@@ -465,8 +467,8 @@ header .mobile {
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
-    text-align: left;
-    padding-left: 5%;
+    /*text-align: left;
+    padding-left: 5%;*/
   }
 
   #quotes-section .quote-citation {
