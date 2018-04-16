@@ -173,7 +173,13 @@ header .mobile {
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
+  padding: 1.25rem 7.0625rem;
+  font-family: "Roboto-Medium", sans-serif;
+  line-height: 1.4;
+}
+
+#sign-up-cta .email span {
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 760px) {
@@ -227,8 +233,12 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 5% 2.875rem 5%;
   background-color: #f3f3f3;
+}
+
+.feature .content {
+  height: 10.437rem;
 }
 
 .feature {
@@ -250,6 +260,7 @@ header .mobile {
   font-weight: bold;
   color: #4a4a4a;
   padding-top: 2.5rem;
+  line-height: 1.2;
 }
 
 .feature h3 {
@@ -294,6 +305,7 @@ header .mobile {
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+
 }
 
 #filters-section .content h2 {
@@ -393,9 +405,10 @@ header .mobile {
 
 /* Footer */
 
-footer {
+footer .content span {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  font-size: .875rem;
 }
 
 footer .content {
