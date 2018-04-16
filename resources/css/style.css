@@ -520,6 +520,8 @@ header .desktop .button.nav_extra {
 
 /* Footer */
 
+footer {display: relative;}
+
 footer .content span {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
