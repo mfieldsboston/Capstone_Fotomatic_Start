@@ -319,6 +319,22 @@ header .desktop .button.nav_extra {
   }
 }
 
+.feature {
+  flex: 1;
+  padding: 2rem;
+  margin: 0px 1.25rem;
+  background-color: white;
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1109px) {
+  .feature {
+    flex: 1;
+    padding: 2rem 0 2rem 0;
+    margin: 0px 1.25rem;
+    background-color: white;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
