@@ -488,7 +488,7 @@ header .desktop .button.nav_extra {
 @media only screen and (max-width: 890px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
-    /*padding: 1.875rem 2rem 1.875rem .625rem;*/
+    /*padding: 1.875rem 2rem 1.875rem 2rem;*/
     /*display: flex;*/
   }
 
