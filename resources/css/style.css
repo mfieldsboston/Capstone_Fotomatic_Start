@@ -463,7 +463,8 @@ header .desktop .button.nav_extra {
 }
 
 #quotes-section .content {
-  padding: 5rem 0;
+  /*padding: 5rem 0;*/
+  padding: 5rem 2rem 5rem 0;
   display: flex;
 }
 
