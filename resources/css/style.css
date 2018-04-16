@@ -338,10 +338,15 @@ header .mobile {
 
 }
 
+
 @media only screen and (max-width: 760px) {
   .feature {
     margin: 0;
     padding: 1rem 1rem 0 1rem;
+  }
+
+  .feature:first-child {
+    background-color: #D4D5D6;
   }
 
 }
